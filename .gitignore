@@ -1,0 +1,16 @@
+.venv/
+
+*.log
+*.pot
+*.pyc
+*__pycache__/
+
+.vscode/
+.vim/
+
+media/
+static/
+
+db.sqlite3
+
+.env
