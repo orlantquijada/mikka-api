@@ -31,7 +31,7 @@ class UserViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
 
         if not user:
             return Response(
-                {"detail": "Incorrect username or password."},
+                {"detail": "Incorrect username or password"},
                 status=status.HTTP_401_UNAUTHORIZED,
             )
 
